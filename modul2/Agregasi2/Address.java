@@ -1,0 +1,15 @@
+package modul.modul2.Agregasi2;
+
+class Address {
+    int strNum;
+    String city;
+    String state;
+    String country;
+
+    Address(int street, String c, String st, String country){
+        this.strNum=street;
+        this.city=c;
+        this.state=st;
+        this.country=country;
+    }
+}
