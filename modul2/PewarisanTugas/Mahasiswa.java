@@ -1,6 +1,6 @@
 package modul2.PewarisanTugas;
 
-public class Mahasiswa {
+class Mahasiswa {
     String nim;
     String nama;
     int NISN;
