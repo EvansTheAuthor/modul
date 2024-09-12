@@ -2,7 +2,7 @@ package modul2.PewarisanTugas;
 
 public class Fakultas extends Mahasiswa{
     String fakultas;
-    char kdProdi;
+    String kdProdi;
     int semester;
 
     public String getFakultas() {
@@ -14,11 +14,11 @@ public class Fakultas extends Mahasiswa{
         System.out.println("Fakultas: "+fakultas);
     }
 
-    public char getKdProdi() {
+    public String getKdProdi() {
         return kdProdi;
     }
 
-    public void setKdProdi(char kdProdi) {
+    public void setKdProdi(String kdProdi) {
         this.kdProdi = kdProdi;
         System.out.println("Kode Prodi: "+kdProdi);
     }
